@@ -1,0 +1,8 @@
+package com.sale.in;
+
+public class Message {
+
+	public String message() {
+		return "Good morning ...";
+	}
+}

@@ -1,0 +1,13 @@
+package com.sale.in;
+
+import java.sql.Connection;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class DisplayMovieDetails {
+
+	@Autowired
+	Connection connection;
+}

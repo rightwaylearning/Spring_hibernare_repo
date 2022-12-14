@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-mapping PUBLIC
-      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ <!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-   <class name="employee.info.Employees" table="employees">
-        <id name="employeeNumber" column="employeeNumber"></id>
-        <property name="lastName" column ="lastName"></property>
-         <property name="firstName" column ="firstName"></property>
-          <property name="extenstion" column ="extension"></property>
-           <property name="email" column ="email"></property>
-            <property name="officeCode" column ="officeCode"></property>
-             <property name="reportTo" column ="reportsTo"></property>
-        <property name="jobTitle" column ="jobTitle"></property>
+   <class name="employee.info.Student" table="student">
+        <id name="id" column="id"></id>
+        <property name="firstName" column ="first_name"></property>
+         <property name="lastName" column ="last_name"></property>
+          <property name="age" column ="age"></property>
+           <property name="gender" column ="gender"></property>
+          
     </class>
 </hibernate-mapping>   

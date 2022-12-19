@@ -8,6 +8,12 @@ public class City {
 	private String cityState;
 	private Integer cityPin;
 	
+	@Override
+	public String toString() {
+		return "City [cityCode=" + cityCode + ", cityName=" + cityName + ", cityState=" + cityState + ", cityPin="
+				+ cityPin + "]";
+	}
+
 	public City() {}
 
 	public Integer getCityCode() {

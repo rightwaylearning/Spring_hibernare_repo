@@ -27,15 +27,16 @@
     <fullyQualifiedTypeName name="springtemplateexample.SpringJDBC.Employee"/>
     <fullyQualifiedTypeName name="com.mysql.jdbc.Driver"/>
     <fullyQualifiedTypeName name="org.hibernate.dialect.MySQLDialect"/>
-    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
-    <fullyQualifiedTypeName name="org.hibernate.Session"/>
-    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
     <fullyQualifiedTypeName name="employee.info.Employees"/>
-    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="springtemplateexample.SpringJDBC.Student"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
     <fullyQualifiedTypeName name="org.hibernate.dialect.MySQL5Dialect"/>
     <fullyQualifiedTypeName name="employee.info.Student"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="session.factory.generator.GenerateSessionFactoryInstance"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
 </qualifiedTypeNameHistroy>

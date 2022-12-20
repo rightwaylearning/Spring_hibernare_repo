@@ -25,14 +25,14 @@ public class Controller {
 		//System.out.println(city);
 		
 		// save 
-//		City c1 = new City();
-//		c1.setCityCode(12345); c1.setCityName("Madras");c1.setCityState("Tamilnadu");
-//		c1.setCityPin(12345);
-//       here tx required
-//		Transaction tx = session.beginTransaction();
-//		Serializable id= session.save(c1);
-//		System.out.println(id);
-//		tx.commit();
+		City c1 = new City();
+		c1.setCityCode(22); c1.setCityName("pune");c1.setCityState("MH");
+		c1.setCityPin(12345);
+       //here tx required
+		Transaction tx = session.beginTransaction();
+		Serializable id= session.save(c1);
+		System.out.println(id);
+		tx.commit();
 		
 		
 		// delete opt required tx mang.

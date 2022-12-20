@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Spring_hibernare_repo\profiles-demo"/>
+			<item value="D:\Spring_hibernare_repo\demo"/>
 			<item value="D:\Spring_hibernare_repo\web-app"/>
 			<item value="D:\Spring_hibernare_repo\SpringJDBC"/>
 			<item value="D:\Spring_hibernare_repo\kesari"/>

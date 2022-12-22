@@ -65,6 +65,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="rwl.loading.object"/>
 			<item value="indian.cities"/>
 			<item value="h_demo_example"/>
 			<item value="ibm.info.tech"/>
@@ -72,6 +73,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="GetAndLoadMethods"/>
 			<item value="cityinfo"/>
 			<item value="Test"/>
 			<item value="InformationDetailsOfEmployee"/>
@@ -85,8 +87,8 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
-			<item value="1.0"/>
 			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.0"/>
 		</list>
 	</section>
 </section>

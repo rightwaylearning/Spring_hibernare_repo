@@ -5,7 +5,9 @@
     
   <hibernate-mapping>
      <class name="pojo.classes.City"  table="city">
-       <id name="cityCode" column="city_code"></id>
+       <id name="cityCode" column="city_code">
+          <generator class="increment"></generator>       
+       </id>
        <property name="cityName" column="city_name"></property>
        <property name="cityState" column="city_state"></property>
        <property name="cityPin" column="city_pin"></property>

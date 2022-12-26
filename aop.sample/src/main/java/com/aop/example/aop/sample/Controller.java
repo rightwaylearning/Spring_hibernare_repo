@@ -23,4 +23,10 @@ public class Controller {
     public String getSecond() {
 		return businessLogic.getMessage2();
 	}
+	
+	@GetMapping
+	@RequestMapping("/third")
+	public String getThird() {
+		return businessLogic.getMessage3();
+	}
 }

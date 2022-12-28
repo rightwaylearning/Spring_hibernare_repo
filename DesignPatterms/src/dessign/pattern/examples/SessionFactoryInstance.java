@@ -1,6 +1,7 @@
 package dessign.pattern.examples;
 
-public class SessionFactoryInstance {
+public class SessionFactoryInstance implements Cloneable
+{
 
 	// if u create private constructor then no one can create instance
 	// of class out side of class
@@ -15,6 +16,11 @@ public class SessionFactoryInstance {
 			s = new SessionFactoryInstance();
 		}
 		return s;
+	}
+	
+	 @Override
+	protected Object clone() throws CloneNotSupportedException {
+		 return new Exception("please don't try create clone");
 	}
 }
  // 50%

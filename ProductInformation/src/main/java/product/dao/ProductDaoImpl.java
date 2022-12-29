@@ -1,8 +1,11 @@
 package product.dao;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 
 import util.classes.GetSessionFactroy;
 
@@ -16,7 +19,9 @@ public class ProductDaoImpl implements ProductDao{
 
 	public Product read(Integer productId) {
 		Session session = factroy.openSession();
-		return session.load(Product.class, productId);
+		Product p = session.get(Product.class, productId);
+		session.close();
+		return p;
 	}
 
 	public Integer insert(Product product) {
@@ -24,6 +29,7 @@ public class ProductDaoImpl implements ProductDao{
 		Transaction tx = session.beginTransaction();
 		Integer id = (Integer)session.save(product);
 		tx.commit();
+		session.close();
 		return id;
 	}
 
@@ -32,6 +38,7 @@ public class ProductDaoImpl implements ProductDao{
 		Transaction tx = session.beginTransaction();
 		session.update(product);
 		tx.commit();
+		session.close();
 	}
 
 	public void delete(Integer productId) {
@@ -41,6 +48,15 @@ public class ProductDaoImpl implements ProductDao{
 		p.setProductId(productId);
 		session.delete(p);
 		tx.commit();
+		session.close();
+	}
+
+	public List<Product> getAllproduct() {
+		Session session = factroy.openSession();
+		Query<Product>  query = session.createQuery("from Product");
+		List<Product> list= query.list();
+		session.close();
+		return list;
 	}
 
 }

@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
-    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"/>
-    <fullyQualifiedTypeName name="org.springframework.jdbc.core.BeanPropertyRowMapper"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-    <fullyQualifiedTypeName name="springtemplateexample.SpringJDBC.SpringJDBCCurdOperation"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="springtemplateexample.SpringJDBC.Employee"/>
     <fullyQualifiedTypeName name="com.mysql.jdbc.Driver"/>
     <fullyQualifiedTypeName name="org.hibernate.dialect.MySQLDialect"/>
@@ -19,8 +10,6 @@
     <fullyQualifiedTypeName name="employee.info.Student"/>
     <fullyQualifiedTypeName name="session.factory.generator.GenerateSessionFactoryInstance"/>
     <fullyQualifiedTypeName name="j1.entity.cityinfo.City"/>
-    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
     <fullyQualifiedTypeName name="com.event.listener.demo.Student"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
@@ -51,13 +40,24 @@
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.Throwable"/>
-    <fullyQualifiedTypeName name="org.hibernate.Session"/>
     <fullyQualifiedTypeName name="utility.classses.GetSessionFactroyObjects"/>
     <fullyQualifiedTypeName name="pojo.classes.City"/>
-    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
-    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-    <fullyQualifiedTypeName name="org.hibernate.service.ServiceRegistry"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
     <fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
+    <fullyQualifiedTypeName name="org.hibernate.service.ServiceRegistry"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="util.classes.GetSessionFactroy"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="product.dao.ProductDaoImpl"/>
+    <fullyQualifiedTypeName name="product.dao.ProductDao"/>
+    <fullyQualifiedTypeName name="product.dao.ProductUtil"/>
+    <fullyQualifiedTypeName name="product.services.ProductServices"/>
+    <fullyQualifiedTypeName name="product.services.ProductServicesImpl"/>
+    <fullyQualifiedTypeName name="product.entity.classes.Product"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,7 @@
 package product.services;
 
+import java.util.List;
+
 import product.dao.Product;
 import product.dao.ProductDao;
 import product.dao.ProductUtil;
@@ -28,6 +30,10 @@ public class ProductServicesImpl implements ProductServices {
 	public boolean delete(Integer productId) {
 		productDao.delete(productId);
 		return true;
+	}
+	
+	public List<Product> getAllproduct(){
+		return productDao.getAllproduct();
 	}
 
 }

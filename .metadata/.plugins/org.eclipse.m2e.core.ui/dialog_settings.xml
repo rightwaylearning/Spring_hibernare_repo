@@ -67,6 +67,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="tata.product.details"/>
 			<item value="rwl.loading.object"/>
 			<item value="indian.cities"/>
 			<item value="h_demo_example"/>
@@ -75,6 +76,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ProductInformation"/>
 			<item value="GetAndLoadMethods"/>
 			<item value="cityinfo"/>
 			<item value="Test"/>

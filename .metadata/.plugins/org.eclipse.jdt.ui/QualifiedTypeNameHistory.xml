@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="springtemplateexample.SpringJDBC.Employee"/>
-    <fullyQualifiedTypeName name="com.mysql.jdbc.Driver"/>
-    <fullyQualifiedTypeName name="org.hibernate.dialect.MySQLDialect"/>
     <fullyQualifiedTypeName name="employee.info.Employees"/>
     <fullyQualifiedTypeName name="springtemplateexample.SpringJDBC.Student"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="product.services.ProductServices"/>
     <fullyQualifiedTypeName name="product.services.ProductServicesImpl"/>
     <fullyQualifiedTypeName name="product.entity.classes.Product"/>
+    <fullyQualifiedTypeName name="org.hibernate.Query"/>
+    <fullyQualifiedTypeName name="org.hibernate.query.Query"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

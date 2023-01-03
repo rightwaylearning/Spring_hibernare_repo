@@ -7,6 +7,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
+import product.dao.Product;
 import util.classes.GetSessionFactroy;
 
 public class ProductDaoImpl implements ProductDao{

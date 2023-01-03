@@ -7296,3 +7296,24 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2022-12-28 20:12:01,927 [Worker-31: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2022-12-28 20:12:01,942 [Worker-31: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-12-28 20:12:01,945 [Worker-31: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-29 18:28:29,264 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-29 19:27:54,831 [Worker-89: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-29 19:27:54,947 [Worker-89: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-29 19:27:55,088 [Worker-89: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-29 19:27:55,092 [Worker-89: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-29 19:38:55,041 [Worker-90: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-29 19:38:55,051 [Worker-90: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-29 19:38:55,062 [Worker-90: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-29 19:38:55,064 [Worker-90: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-29 19:44:43,680 [Worker-91: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-29 19:44:43,684 [Worker-91: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-29 19:44:43,693 [Worker-91: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-29 19:44:43,695 [Worker-91: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-29 19:48:07,992 [Worker-91: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-29 19:48:07,996 [Worker-91: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-29 19:48:08,004 [Worker-91: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-29 19:48:08,007 [Worker-91: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-29 19:49:35,616 [Worker-92: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-29 19:49:35,619 [Worker-92: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-12-29 19:49:35,626 [Worker-92: Launching Controller (8)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-12-29 19:49:35,628 [Worker-92: Launching Controller (8)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

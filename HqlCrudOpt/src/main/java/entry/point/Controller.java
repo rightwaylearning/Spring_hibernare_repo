@@ -3,6 +3,7 @@ package entry.point;
 import java.util.List;
 
 import model.classes.Product;
+import model.classes.Temp;
 import product.services.ProductService;
 import product.services.ProductServiceImpl;
 
@@ -24,7 +25,16 @@ public class Controller {
 //			System.out.println(objects[0] +" : "+objects[1]);
 //		}
 		
-		Integer i = service.updateAllProductPrice(10);
+//		int i = service.updateAllProductPrice(10);
+//		System.out.println(i);
+		
+		Temp t = new Temp();
+		t.setpId(23);
+		t.setpName("Mobile");
+		t.setpPrice(23000.50);
+		t.setpType("electronic");
+		t.setpBrand("LG");
+		int i = service.insertNewProduct(t);
 		System.out.println(i);
 				
 	}

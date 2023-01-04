@@ -3,6 +3,7 @@ package product.services;
 import java.util.List;
 
 import model.classes.Product;
+import model.classes.Temp;
 
 public interface ProductService {
 
@@ -12,5 +13,5 @@ public interface ProductService {
 	List<String> getAllProductsName();
 	Integer updateAllProductPrice(Integer percentage);
 	Integer deleteProduct(Integer productId);
-	Integer insertNewProduct(Product product);
+	Integer insertNewProduct(Temp temp);
 }

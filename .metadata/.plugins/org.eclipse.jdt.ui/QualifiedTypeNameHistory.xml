@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="session.factory.generator.GenerateSessionFactoryInstance"/>
     <fullyQualifiedTypeName name="j1.entity.cityinfo.City"/>
     <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
     <fullyQualifiedTypeName name="com.event.listener.demo.Student"/>
@@ -41,7 +40,6 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="product.dao.ProductDaoImpl"/>
     <fullyQualifiedTypeName name="product.dao.ProductDao"/>
     <fullyQualifiedTypeName name="product.dao.ProductUtil"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="model.classes.Product"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="model.classes.Temp"/>
 </qualifiedTypeNameHistroy>

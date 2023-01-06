@@ -13,11 +13,11 @@ public class Controller {
 	
 	public static void main(String[] args) {
 		
-//		List<Product> list = service.getAllProductInfo();
-//		
-//		for (Product product : list) {
-//			System.out.println(product);
-//		}
+		List<Product> list = service.getAllProductInfo();
+		
+		for (Product product : list) {
+			System.out.println(product);
+		}
 		
 //		List<Object[]> list = service.getFewColumnInfo();
 //		
@@ -28,14 +28,14 @@ public class Controller {
 //		int i = service.updateAllProductPrice(10);
 //		System.out.println(i);
 		
-		Temp t = new Temp();
-		t.setpId(23);
-		t.setpName("Mobile");
-		t.setpPrice(23000.50);
-		t.setpType("electronic");
-		t.setpBrand("LG");
-		int i = service.insertNewProduct(t);
-		System.out.println(i);
+//		Temp t = new Temp();
+//		t.setpId(23);
+//		t.setpName("Mobile");
+//		t.setpPrice(23000.50);
+//		t.setpType("electronic");
+//		t.setpBrand("LG");
+//		int i = service.insertNewProduct(t);
+//		System.out.println(i);
 				
 	}
 }

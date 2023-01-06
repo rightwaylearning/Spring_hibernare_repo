@@ -1,6 +1,8 @@
 package web.service.rest.api.web.app.restendpoint;
 
-import org.springframework.stereotype.Controller;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -8,15 +10,22 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import web.service.rest.api.web.app.entity.Product;
+import web.service.rest.api.web.app.service.ProductServicesImpl;
+
 // this my rest api class, even no need to add @Controller here
 // inside @RestControoler contain @Controller
 @RestController
 @RequestMapping("/app")
 public class FirstRestEndPoint {
+	
+	@Autowired
+	ProductServicesImpl productServicesImpl;
 
 	@GetMapping("/getmethod")  
-	public String message() {
-		return "I am http get method";
+	public List<Product> message() {
+		 List<Product> products = productServicesImpl.getProducts();
+		 return products;
 	}
 	
 	@PostMapping("/postmethod")  

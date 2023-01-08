@@ -11,4 +11,5 @@ public class GetMethodWithRequestParam {
 	public String getMsg(@RequestParam("name") String name,@RequestParam("pwd") String pwd) {
 		return "name =  " + name +"  pwd " + pwd;
 	}
+	
 }

@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Spring_hibernare_repo\sample.annotations"/>
+			<item value="D:\Spring_hibernare_repo\product.api.rest.endpoints"/>
 			<item value="D:\Spring_hibernare_repo\aop.sample"/>
 			<item value="D:\Spring_hibernare_repo\rwl_test"/>
 			<item value="D:\Spring_hibernare_repo\profiles-demo"/>

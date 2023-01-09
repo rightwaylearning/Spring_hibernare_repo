@@ -17,7 +17,20 @@ public class ProductServicesImpl implements ProductServices {
 
 	@Override
 	public Product getProduct(Integer productId) {
-		// TODO Auto-generated method stub
+		List<Object[]> productList = productdaoImpl.getProduct(productId);
+		System.out.println("size == "+productList.size());
+		if(productList != null || productList.size() > 0) {
+		Product product= new Product();
+		
+		Object[] singleProduct = productList.get(0);
+		
+		product.setProductId((Integer)singleProduct[0]);
+		product.setProductName((String)singleProduct[1]);
+		product.setProductPrice((Double)singleProduct[2]);
+		product.setProductType((String)singleProduct[3]);
+		product.setProductBrand((String)singleProduct[4]);
+		return product;
+		}
 		return null;
 	}
 
@@ -44,20 +57,18 @@ public class ProductServicesImpl implements ProductServices {
 
 	@Override
 	public Integer saveProduct(Product product) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return productdaoImpl.saveProduct(product);
 	}
 
 	@Override
 	public Integer updateProduct(Product product) {
-		// TODO Auto-generated method stub
-		return null;
+		return productdaoImpl.updateProduct(product);
 	}
 
 	@Override
 	public Integer deleteProduct(Integer productId) {
-		// TODO Auto-generated method stub
-		return null;
+		return productdaoImpl.deleteProduct(productId);
 	}
 
 }

@@ -7,6 +7,6 @@ public interface EmployeeDao {
 	public List<Employee> getEmployee();
 	public Employee getEmployee(Integer employeeId);
 	public Integer saveEmployee(Employee employee);
-	public Integer updateEmployee(Employee employee);
+	public Employee updateEmployee(Employee employee);
 	public Integer deleteEmployee(Integer employeeId);
 }

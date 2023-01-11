@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Spring_hibernare_repo\employee.crud.opt"/>
 			<item value="D:\Spring_hibernare_repo\sample.annotations"/>
 			<item value="D:\Spring_hibernare_repo\product.api.rest.endpoints"/>
 			<item value="D:\Spring_hibernare_repo\aop.sample"/>

@@ -6,11 +6,11 @@ import javax.persistence.Column;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="employee")
+@Table(name="employee") // this one is optional if table name & class name is same 
 public class Employee {
 
 	@Id
-	@Column(name="employee_id")
+	@Column(name="employee_id") // if column name & property name is then this annotation optional
 	private Integer employeeNumber;
 	
 	@Column(name="first_name")

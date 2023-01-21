@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import rwl.employee.crud.opt.dao.EmployeeDaoImpl;
 import rwl.employee.crud.opt.entity.Employee;
+import rwl.employee.crud.opt.exception.handlers.EmployeeNotExist;
 
 @Service
 public class EmployeeServicesImpl implements EmployeeServices {
@@ -16,12 +17,20 @@ public class EmployeeServicesImpl implements EmployeeServices {
 	
 	@Override
 	public List<Employee> getEmployee() {
+		
+//		List<Employee> emp = null;
+//		emp.add(null);
+		
 		return employeeDaoImpl.getEmployee();
 	}
 
 	@Override
 	public Employee getEmployee(Integer employeeId) {
-		return employeeDaoImpl.getEmployee(employeeId);
+		Employee employee =  employeeDaoImpl.getEmployee(employeeId);
+		if(employee == null) {
+		 throw new EmployeeNotExist();	
+		}
+		return employee;
 	}
 
 	@Override

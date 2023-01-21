@@ -3,7 +3,9 @@ package rwl.employee.crud.opt.rest.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -25,14 +27,19 @@ public class EmployeeRestController {
 
 	// http://localhost:8080/app/employee
 	@GetMapping(path = "/employee", produces = MediaType.APPLICATION_JSON_VALUE)
-	public List<Employee> getEmployeeList() {
-		return employeeServicesImpl.getEmployee();
+	public ResponseEntity<List<Employee>> getEmployeeList() {
+		
+		List<Employee> list = employeeServicesImpl.getEmployee();
+		
+		return new ResponseEntity<List<Employee>>(list, HttpStatus.OK);
 	}
 
 	// http://localhost:8080/app/employee/12
 	@GetMapping(path = "/employee/{employeeId}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public Employee getEmployee(@PathVariable Integer employeeId) {
-		return employeeServicesImpl.getEmployee(employeeId);
+	public ResponseEntity<Employee> getEmployee(@PathVariable Integer employeeId) {
+		Employee employee =  employeeServicesImpl.getEmployee(employeeId);
+		
+		return new ResponseEntity<Employee>(employee, HttpStatus.OK);
 	}
 
 	// http://localhost:8080/app/employee
